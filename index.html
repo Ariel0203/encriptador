@@ -21,12 +21,12 @@
 
       <div class="texto-a-encriptar">
         <div>
-          <textarea name="textarea" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+          <textarea name="textarea" id="textoIngresado" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
           <p><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p>
         </div>
         <div class="botones-a-encriptar">
-          <input type="button" value="Encriptar" class="btn-encriptar"/>
-          <input type="button" value="Desencriptar" class="btn-desencriptar">
+          <button onclick="encriptacion();" class="btn-encriptar">Encriptar</button>
+          <button onclick="desencriptacion();" class="btn-desencriptar">Desencriptar</button>
         </div>
       </div>
       <div class="texto-encriptado">
@@ -35,7 +35,7 @@
           <h2>Ningún mensaje fue encontrado</h2>
           <p>Ingresa el texto que desees encríptar o desencriptar.</p>        
         </div>
-        <input type="button" value="Copiar" class="btn-copiar">
+        <button class="btn-copiar">Copiar</button>
       </div>
       
     </main>

@@ -75,8 +75,6 @@ main{
   border-radius: 5px;
   transition: 1s all; 
   cursor: pointer;
-  display: flex;
-  justify-content: center; 
 }
 
 .btn-encriptar:hover{
@@ -141,9 +139,7 @@ main{
   border: none;
   border-radius: 5px;
   transition: 1s all; 
-  cursor: pointer;
-  display: flex;
-  justify-content: center; 
+  cursor: pointer;  
 }
 
 .btn-copiar:hover{
