@@ -173,6 +173,12 @@ footer{
   color: #0a3871;
 }
 
+footer a{
+  color: #0a3871;
+  padding: 15px;
+  font-size: 30px;  
+}
+
 @media screen and (max-width: 1024px){
   main{
     flex-wrap: wrap;
