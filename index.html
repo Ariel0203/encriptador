@@ -19,24 +19,25 @@
 
     <main>
 
-      <div class="texto-a-encriptar">
+      <section class="contenedor-a-encriptar">
         <div>
           <textarea name="textarea" id="textoIngresado" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
           <p><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p>
         </div>
         <div class="botones-a-encriptar">
-          <button onclick="encriptacion();" class="btn-encriptar">Encriptar</button>
-          <button onclick="desencriptacion();" class="btn-desencriptar">Desencriptar</button>
+          <button id="btn-encriptar" class="btn-encriptar">Encriptar</button>
+          <button id="btn-desencriptar"class="btn-desencriptar">Desencriptar</button>
         </div>
-      </div>
-      <div class="texto-encriptado">
-        <div>
-          <img src="img/Muñeco.jpg" alt="Persona animada sosteniendo una lupa mientras observa un diamante">
+      </section>
+      
+      <section class="contenedor-encriptado">
+        <textarea name="textarea" id="resultadoEncriptado" cols="30" rows="10"></textarea>
+        <div id="mostrarDiv">
           <h2>Ningún mensaje fue encontrado</h2>
           <p>Ingresa el texto que desees encríptar o desencriptar.</p>        
         </div>
-        <button class="btn-copiar">Copiar</button>
-      </div>
+        <button id="btn-copiar" class="btn-copiar">Copiar</button>        
+      </section>
       
     </main>
 
